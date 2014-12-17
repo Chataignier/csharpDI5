@@ -1,0 +1,90 @@
+c:\users\administrateur\documents\visual studio 2010\Projects\Mercure\Mercure\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\administrateur\documents\visual studio 2010\Projects\Mercure\Mercure\obj\x86\Debug\Mercure.ConfigurationURL.resources
+c:\users\administrateur\documents\visual studio 2010\Projects\Mercure\Mercure\obj\x86\Debug\Mercure.MDIForm.resources
+c:\users\administrateur\documents\visual studio 2010\Projects\Mercure\Mercure\obj\x86\Debug\Mercure.Properties.Resources.resources
+c:\users\administrateur\documents\visual studio 2010\Projects\Mercure\Mercure\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\administrateur\documents\visual studio 2010\Projects\Mercure\Mercure\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\administrateur\documents\visual studio 2010\Projects\Mercure\Mercure\bin\Debug\Mercure.exe
+c:\users\administrateur\documents\visual studio 2010\Projects\Mercure\Mercure\bin\Debug\Mercure.pdb
+c:\users\administrateur\documents\visual studio 2010\Projects\Mercure\Mercure\obj\x86\Debug\Mercure.exe
+c:\users\administrateur\documents\visual studio 2010\Projects\Mercure\Mercure\obj\x86\Debug\Mercure.pdb
+c:\users\administrateur\documents\visual studio 2010\Projects\Mercure\Mercure\obj\x86\Debug\Mercure.ArticleForm.resources
+C:\Users\AneBatey\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.exe
+C:\Users\AneBatey\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.pdb
+C:\Users\AneBatey\Desktop\TP3\Mercure\Mercure\bin\Debug\Mercure.exe
+C:\Users\AneBatey\Desktop\TP3\Mercure\Mercure\bin\Debug\Mercure.pdb
+C:\Users\AneBatey\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.csprojResolveAssemblyReference.cache
+C:\Users\AneBatey\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.ArticleForm.resources
+C:\Users\AneBatey\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.ConfigurationURL.resources
+C:\Users\AneBatey\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.Form1.resources
+C:\Users\AneBatey\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.MDIForm.resources
+C:\Users\AneBatey\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.Properties.Resources.resources
+C:\Users\AneBatey\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.csproj.GenerateResource.Cache
+C:\Users\AneBatey\Desktop\TP3\Mercure\Mercure\bin\Debug\fr-FR\Mercure.resources.dll
+C:\Users\AneBatey\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.ConfigurationURL.fr-FR.resources
+C:\Users\AneBatey\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\fr-FR\Mercure.resources.dll
+C:\Users\Administrateur\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.exe
+C:\Users\Administrateur\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.pdb
+C:\Users\Administrateur\Desktop\TP3\Mercure\Mercure\bin\Debug\Mercure.exe
+C:\Users\Administrateur\Desktop\TP3\Mercure\Mercure\bin\Debug\Mercure.pdb
+C:\Users\Administrateur\Desktop\TP3\Mercure\Mercure\bin\Debug\fr-FR\Mercure.resources.dll
+C:\Users\Administrateur\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrateur\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.ArticleForm.resources
+C:\Users\Administrateur\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.ConfigurationURL.resources
+C:\Users\Administrateur\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.Form1.resources
+C:\Users\Administrateur\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.MDIForm.resources
+C:\Users\Administrateur\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.Properties.Resources.resources
+C:\Users\Administrateur\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.ConfigurationURL.fr-FR.resources
+C:\Users\Administrateur\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrateur\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrateur\Desktop\TP3\Mercure\Mercure\obj\x86\Debug\fr-FR\Mercure.resources.dll
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.exe
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.pdb
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\bin\Debug\Mercure.exe
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\bin\Debug\Mercure.pdb
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\bin\Debug\fr-FR\Mercure.resources.dll
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.ArticleForm.resources
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.ConfigurationURL.resources
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.MDIForm.resources
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.Properties.Resources.resources
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.ConfigurationURL.fr-FR.resources
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\fr-FR\Mercure.resources.dll
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.MarqueForm.resources
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.FamilleForm.resources
+C:\Users\Administrateur\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.SousFamilleForm.resources
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.exe
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.pdb
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\bin\Debug\Mercure.exe
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\bin\Debug\Mercure.pdb
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\bin\Debug\fr-FR\Mercure.resources.dll
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.csprojResolveAssemblyReference.cache
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.ArticleForm.resources
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.ConfigurationURL.resources
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.FamilleForm.resources
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.MarqueForm.resources
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.MDIForm.resources
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.Properties.Resources.resources
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.SousFamilleForm.resources
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.ConfigurationURL.fr-FR.resources
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.csproj.GenerateResource.Cache
+C:\Users\AneBatey\Desktop\TP3\TP3\Mercure\Mercure\obj\x86\Debug\fr-FR\Mercure.resources.dll
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.exe
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.pdb
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.ArticleForm.resources
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.ConfigurationURL.resources
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.FamilleForm.resources
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.MarqueForm.resources
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.MDIForm.resources
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.Properties.Resources.resources
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.SousFamilleForm.resources
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\obj\x86\Debug\Mercure.ConfigurationURL.fr-FR.resources
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\bin\Debug\Mercure.exe
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\bin\Debug\Mercure.pdb
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\bin\Debug\fr-FR\Mercure.resources.dll
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Mercure\Mercure\obj\x86\Debug\fr-FR\Mercure.resources.dll

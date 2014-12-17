@@ -1,0 +1,12 @@
+C:\Users\Administrateur\Desktop\Ressources TP3\MercureClient\MercureClient\bin\Release\MercureClient.exe
+C:\Users\Administrateur\Desktop\Ressources TP3\MercureClient\MercureClient\bin\Release\MercureClient.pdb
+C:\Users\Administrateur\Desktop\Ressources TP3\MercureClient\MercureClient\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrateur\Desktop\Ressources TP3\MercureClient\MercureClient\obj\Release\MercureClient.exe
+C:\Users\Administrateur\Desktop\Ressources TP3\MercureClient\MercureClient\obj\Release\MercureClient.pdb
+C:\Users\Administrateur\Desktop\TP3\Ressources TP3\MercureClient\MercureClient\obj\Release\MercureClient.exe
+C:\Users\Administrateur\Desktop\TP3\Ressources TP3\MercureClient\MercureClient\obj\Release\MercureClient.pdb
+C:\Users\Administrateur\Desktop\TP3\Ressources TP3\MercureClient\MercureClient\bin\Release\MercureClient.exe
+C:\Users\Administrateur\Desktop\TP3\Ressources TP3\MercureClient\MercureClient\bin\Release\MercureClient.pdb
+C:\Users\Administrateur\Desktop\TP3\Ressources TP3\MercureClient\MercureClient\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Ressources TP3\MercureClient\MercureClient\obj\Release\MercureClient.exe
+C:\Users\Administrateur\Desktop\TP3\TP3\TP3\Ressources TP3\MercureClient\MercureClient\obj\Release\MercureClient.pdb
