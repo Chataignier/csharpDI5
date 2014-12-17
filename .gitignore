@@ -154,7 +154,7 @@ $RECYCLE.BIN/
 .mr.developer.cfg
 
 # Ignore Service
-Ressources TP/*
+Ressources TP3/*
 
 # Ignore PDF
 Net IHM - TP3.pdf
