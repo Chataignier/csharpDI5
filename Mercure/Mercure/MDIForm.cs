@@ -19,6 +19,7 @@ namespace Mercure
         public static MarqueForm marqueForm;
         public static FamilleForm familleForm;
         public static SousFamilleForm sousFamilleForm;
+        public static FactureForm factureForm;
 
         //public event EventHandler Changed;
 
@@ -120,6 +121,20 @@ namespace Mercure
             else
             {
                 sousFamilleForm.BringToFront();
+            }
+        }
+
+        private void factureToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (factureForm == null)
+            {
+                factureForm = new FactureForm();
+                factureForm.MdiParent = this;
+                factureForm.Show();
+            }
+            else
+            {
+                factureForm.BringToFront();
             }
         }
     }

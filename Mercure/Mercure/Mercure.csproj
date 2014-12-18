@@ -59,6 +59,12 @@
     <Compile Include="ConfigurationURL.Designer.cs">
       <DependentUpon>ConfigurationURL.cs</DependentUpon>
     </Compile>
+    <Compile Include="FactureForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FactureForm.Designer.cs">
+      <DependentUpon>FactureForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="FamilleForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ConfigurationURL.resx">
       <DependentUpon>ConfigurationURL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FactureForm.resx">
+      <DependentUpon>FactureForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FamilleForm.resx">
       <DependentUpon>FamilleForm.cs</DependentUpon>

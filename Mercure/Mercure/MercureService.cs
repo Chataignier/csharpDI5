@@ -753,7 +753,7 @@ namespace Mercure
 		/// </summary>
 		/// <returns>
 		/// Tableau de tableau de chaines. Les champs retournés sont dans l'ordre : 'RefFacture', 
-		/// 'RefClient', 'RaisonSocial', 'Nom', 'Prenom', 'Adresse', 'CodePostal', 'Ville', 
+		/// 'RefClient', 'RaisonSocial', 'Nom', 'Prenom', 'Adresse', 'CodePostal', 'Ville',
 		/// 'Pays', 'CreateDate'.
 		/// </returns>
 		//-----------------------------------------------------------------------------------------
