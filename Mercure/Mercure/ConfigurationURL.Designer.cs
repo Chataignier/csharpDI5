@@ -79,7 +79,7 @@
             this.Controls.Add(this.btn_Valider);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txb_URL);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.Name = "ConfigurationURL";
             this.Load += new System.EventHandler(this.ConfigurationURL_Load);

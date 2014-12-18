@@ -117,28 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_parDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 32</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>URL</value>
   </data>
   <data name="&gt;&gt;btn_Valider.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="txb_URL.Size" type="System.Drawing.Size, System.Drawing">
     <value>363, 20</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btn_Valider.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="btn_parDefaut.Location" type="System.Drawing.Point, System.Drawing">
-    <value>335, 32</value>
+  <data name="btn_parDefault.Text" xml:space="preserve">
+    <value>Par default</value>
   </data>
-  <data name="&gt;&gt;btn_parDefaut.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Configuration de l'URL d'accès à la base de données</value>
   </data>
   <data name="&gt;&gt;txb_URL.Name" xml:space="preserve">
     <value>txb_URL</value>
@@ -158,11 +161,8 @@
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>430, 100</value>
   </data>
-  <data name="&gt;&gt;btn_parDefaut.Name" xml:space="preserve">
-    <value>btn_parDefaut</value>
-  </data>
-  <data name="btn_parDefault.Location" type="System.Drawing.Point, System.Drawing">
-    <value>335, 32</value>
+  <data name="&gt;&gt;btn_parDefaut.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="btn_Annuler.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -173,14 +173,17 @@
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 9</value>
   </data>
+  <data name="btn_Valider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 32</value>
+  </data>
   <data name="&gt;&gt;btn_Valider.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txb_URL.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btn_parDefaut.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btn_parDefault.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="btn_parDefaut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 32</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>414, 62</value>
@@ -200,14 +203,17 @@
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
   </data>
-  <data name="&gt;&gt;btn_parDefaut.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;btn_parDefaut.Name" xml:space="preserve">
+    <value>btn_parDefaut</value>
   </data>
   <data name="btn_Valider.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="btn_parDefault.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="btn_Annuler.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 32</value>
+  </data>
+  <data name="&gt;&gt;txb_URL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btn_Valider.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -218,11 +224,11 @@
   <data name="btn_Annuler.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="btn_Valider.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 32</value>
+  <data name="btn_Valider.Text" xml:space="preserve">
+    <value>Valider</value>
   </data>
-  <data name="&gt;&gt;btn_parDefault.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="btn_parDefaut.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -230,8 +236,11 @@
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txb_URL.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_parDefault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btn_parDefault.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -242,15 +251,6 @@
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 13</value>
   </data>
-  <data name="btn_Valider.Text" xml:space="preserve">
-    <value>Valider</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>URL</value>
-  </data>
   <data name="&gt;&gt;btn_Valider.Name" xml:space="preserve">
     <value>btn_Valider</value>
   </data>
@@ -260,26 +260,26 @@
   <data name="txb_URL.Location" type="System.Drawing.Point, System.Drawing">
     <value>47, 6</value>
   </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_parDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
   <data name="&gt;&gt;btn_parDefault.Name" xml:space="preserve">
     <value>btn_parDefault</value>
   </data>
-  <data name="&gt;&gt;txb_URL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_parDefault.Text" xml:space="preserve">
-    <value>Par default</value>
-  </data>
-  <data name="btn_Annuler.Location" type="System.Drawing.Point, System.Drawing">
-    <value>254, 32</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Configuration de l'URL d'accès à la base de données</value>
+  <data name="&gt;&gt;btn_parDefault.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;txb_URL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txb_URL.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
