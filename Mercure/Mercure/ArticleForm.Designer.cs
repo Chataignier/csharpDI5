@@ -72,7 +72,7 @@
             this.lv_Article.TabIndex = 0;
             this.lv_Article.UseCompatibleStateImageBehavior = false;
             this.lv_Article.View = System.Windows.Forms.View.Details;
-            this.lv_Article.Click += new System.EventHandler(this.lv_Article_Click);
+            this.lv_Article.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler(this.lv_Article_ItemSelectionChanged);
             // 
             // REF
             // 

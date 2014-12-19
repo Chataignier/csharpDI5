@@ -103,22 +103,6 @@ namespace Mercure
         }
 
         /// <summary>
-        /// Permet de récupérer l'article sélectionné par l'utilisateur
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void lv_Article_Click(object sender, EventArgs e)
-        {
-            btn_Valider.Text = "Modifier";
-            tbx_Ref.ReadOnly = true;
-            tbx_Ref.Text = lv_Article.SelectedItems[0].SubItems[0].Text;
-            tbx_Description.Text = lv_Article.SelectedItems[0].SubItems[1].Text;
-            cbx_SousFamille.Text = lv_Article.SelectedItems[0].SubItems[2].Text;
-            cbx_Marque.Text = lv_Article.SelectedItems[0].SubItems[3].Text;
-            tbx_PrixHT.Text = lv_Article.SelectedItems[0].SubItems[4].Text;
-        }
-
-        /// <summary>
         /// Permet à l'utilisateur d'annuler l'action courante et de vider les champs du formulaire
         /// </summary>
         /// <param name="sender"></param>
@@ -234,5 +218,25 @@ namespace Mercure
         {
             MDIForm.articleForm = null;
         }
+
+        /// <summary>
+        /// Affiche dans les champs l'article selectionne
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void lv_Article_ItemSelectionChanged(object sender, ListViewItemSelectionChangedEventArgs e)
+        {
+            btn_Valider.Text = "Modifier";
+            tbx_Ref.ReadOnly = true;
+            foreach (ListViewItem item in lv_Article.SelectedItems)
+            {
+                tbx_Ref.Text = item.SubItems[0].Text;
+                tbx_Description.Text = item.SubItems[1].Text;
+                cbx_SousFamille.Text = item.SubItems[2].Text;
+                cbx_Marque.Text = item.SubItems[3].Text;
+                tbx_PrixHT.Text = item.SubItems[4].Text;
+            }
+        }
+
     }
 }
