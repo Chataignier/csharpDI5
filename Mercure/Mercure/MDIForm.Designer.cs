@@ -35,7 +35,6 @@
             this.sousFamilleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.marqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configurationURLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.factureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,7 +45,6 @@
             this.familleToolStripMenuItem,
             this.sousFamilleToolStripMenuItem,
             this.marqueToolStripMenuItem,
-            this.factureToolStripMenuItem,
             this.configurationURLToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -89,13 +87,6 @@
             this.configurationURLToolStripMenuItem.Text = "Configuration URL";
             this.configurationURLToolStripMenuItem.Click += new System.EventHandler(this.configurationURLToolStripMenuItem_Click);
             // 
-            // factureToolStripMenuItem
-            // 
-            this.factureToolStripMenuItem.Name = "factureToolStripMenuItem";
-            this.factureToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
-            this.factureToolStripMenuItem.Text = "Facture";
-            this.factureToolStripMenuItem.Click += new System.EventHandler(this.factureToolStripMenuItem_Click);
-            // 
             // MDIForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -109,7 +100,6 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MDIForm";
             this.Text = "Mercure";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -125,7 +115,6 @@
         private System.Windows.Forms.ToolStripMenuItem familleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sousFamilleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem marqueToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem factureToolStripMenuItem;
     }
 }
 

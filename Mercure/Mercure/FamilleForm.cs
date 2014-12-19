@@ -27,7 +27,7 @@ namespace Mercure
         }
 
         /// <summary>
-        /// Permet de charger la fenetre
+        /// Permet de charger la fenêtre
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>

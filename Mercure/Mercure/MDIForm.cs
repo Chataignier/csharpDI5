@@ -10,23 +10,20 @@ using System.Windows.Forms;
 namespace Mercure
 {   
     /// <summary>
-    /// 
+    /// Fenêtre principale de notre programme
     /// </summary>
     public partial class MDIForm : Form
     {
-        public static ConfigurationURL configurationURL; // new ConfigurationURL();
+        public static ConfigurationURL configurationURL;
         public static ArticleForm articleForm;
         public static MarqueForm marqueForm;
         public static FamilleForm familleForm;
         public static SousFamilleForm sousFamilleForm;
-        public static FactureForm factureForm;
-
-        //public event EventHandler Changed;
 
         public static string URLServiceWeb = "http://localhost:8001/Sources/Mercure.asmx";
 
         /// <summary>
-        /// 
+        /// Contructeur de la classe MDIForm()
         /// </summary>
         public MDIForm()
         {
@@ -34,16 +31,7 @@ namespace Mercure
         }
 
         /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void Form1_Load(object sender, EventArgs e)
-        {
-        }
-
-        /// <summary>
-        /// 
+        /// Permet de construire la fenêtre de configuration et de l'afficher
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -54,7 +42,7 @@ namespace Mercure
         }
 
         /// <summary>
-        /// 
+        /// Permet de construire la fenêtre d'article et de l'afficher
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -73,7 +61,7 @@ namespace Mercure
         }
 
         /// <summary>
-        /// 
+        /// Permet de construire la fenêtre de marques et de l'afficher
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -92,7 +80,7 @@ namespace Mercure
         }
 
         /// <summary>
-        /// 
+        /// Permet de construire la fenêtre des familles et de l'afficher
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -110,6 +98,11 @@ namespace Mercure
             }
         }
 
+        /// <summary>
+        /// Permet de construire la fenêtre des sous-familles et de l'afficher
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void sousFamilleToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (sousFamilleForm == null)
@@ -121,20 +114,6 @@ namespace Mercure
             else
             {
                 sousFamilleForm.BringToFront();
-            }
-        }
-
-        private void factureToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (factureForm == null)
-            {
-                factureForm = new FactureForm();
-                factureForm.MdiParent = this;
-                factureForm.Show();
-            }
-            else
-            {
-                factureForm.BringToFront();
             }
         }
     }

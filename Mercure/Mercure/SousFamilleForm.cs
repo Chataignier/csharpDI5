@@ -10,7 +10,7 @@ using System.Windows.Forms;
 namespace Mercure
 {
     /// <summary>
-    /// 
+    /// Cette classe représente la fenetre permettant de gérer les sous-familles
     /// </summary>
     public partial class SousFamilleForm : Form
     {
@@ -18,7 +18,7 @@ namespace Mercure
         private List<string[]> Familles;
 
         /// <summary>
-        /// 
+        /// Permet de constuire l'objet SousFamilleForm
         /// </summary>
         public SousFamilleForm()
         {
@@ -32,7 +32,7 @@ namespace Mercure
 
 
         /// <summary>
-        /// 
+        /// Permet de mettre à jour la liste des famillesPermet de mettre à jour la liste des sous-familles
         /// </summary>
         private void UpdateListView()
         {
@@ -61,6 +61,11 @@ namespace Mercure
             }
         }
 
+        /// <summary>
+        /// Permet de charger la fenêtre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void SousFamilleForm_Load(object sender, EventArgs e)
         {
             UpdateListView();
@@ -73,6 +78,11 @@ namespace Mercure
             }
         }
 
+        /// <summary>
+        /// Permet de valider l'action choisie par l'utilisateur
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_valider_Click(object sender, EventArgs e)
         {
             Service.Url = MDIForm.URLServiceWeb;
@@ -115,6 +125,11 @@ namespace Mercure
             }
         }
 
+        /// <summary>
+        ///  Permet à l'utilisateur d'annuler l'action courante et de vider les champs du formulaire
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_annuler_Click(object sender, EventArgs e)
         {
             btn_Valider.Text = "Ajouter";
@@ -123,6 +138,11 @@ namespace Mercure
             cbx_Famille.Text = "";
         }
 
+        /// <summary>
+        /// Permet de récupérer la sous-familles sélectionné par l'utilisateur
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void lv_SousFamille_Click(object sender, EventArgs e)
         {
             btn_Valider.Text = "Modifier";
@@ -131,6 +151,11 @@ namespace Mercure
             cbx_Famille.Text = lv_SousFamille.SelectedItems[0].SubItems[2].Text;
         }
 
+        /// <summary>
+        /// Handler permettant de gérer la suppresion d'une sous-familles
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_supprimer_Click(object sender, EventArgs e)
         {
             Service.Url = MDIForm.URLServiceWeb;
@@ -154,6 +179,11 @@ namespace Mercure
             }    
         }
 
+        /// <summary>
+        /// Permet de mettre l'objet à null lorsque la fenêtre se ferme. Utilisé pour n'avoir qu'une seule fenêtre à chaque fois.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void SousFamilleForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             MDIForm.sousFamilleForm = null;

@@ -42,7 +42,11 @@
             this.lbl_Identifiant = new System.Windows.Forms.Label();
             this.tbx_identifiant = new System.Windows.Forms.TextBox();
             this.tbx_SousFamille = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // lv_SousFamille
@@ -55,7 +59,7 @@
             this.lv_SousFamille.GridLines = true;
             this.lv_SousFamille.Location = new System.Drawing.Point(1, 3);
             this.lv_SousFamille.Name = "lv_SousFamille";
-            this.lv_SousFamille.Size = new System.Drawing.Size(394, 240);
+            this.lv_SousFamille.Size = new System.Drawing.Size(394, 250);
             this.lv_SousFamille.TabIndex = 10;
             this.lv_SousFamille.UseCompatibleStateImageBehavior = false;
             this.lv_SousFamille.View = System.Windows.Forms.View.Details;
@@ -69,18 +73,21 @@
             // NomSousFamille
             // 
             this.NomSousFamille.Text = "Nom Sous-Famille";
-            this.NomSousFamille.Width = 123;
+            this.NomSousFamille.Width = 142;
             // 
             // NomFamille
             // 
             this.NomFamille.Text = "Nom famille";
-            this.NomFamille.Width = 119;
+            this.NomFamille.Width = 134;
             // 
             // btn_Valider
             // 
-            this.btn_Valider.Location = new System.Drawing.Point(311, 249);
+            this.btn_Valider.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Valider.Location = new System.Drawing.Point(3, 3);
             this.btn_Valider.Name = "btn_Valider";
-            this.btn_Valider.Size = new System.Drawing.Size(75, 23);
+            this.btn_Valider.Size = new System.Drawing.Size(107, 23);
             this.btn_Valider.TabIndex = 13;
             this.btn_Valider.Text = "Ajouter";
             this.btn_Valider.UseVisualStyleBackColor = true;
@@ -88,9 +95,12 @@
             // 
             // btn_supprimer
             // 
-            this.btn_supprimer.Location = new System.Drawing.Point(311, 278);
+            this.btn_supprimer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_supprimer.Location = new System.Drawing.Point(3, 32);
             this.btn_supprimer.Name = "btn_supprimer";
-            this.btn_supprimer.Size = new System.Drawing.Size(75, 23);
+            this.btn_supprimer.Size = new System.Drawing.Size(107, 23);
             this.btn_supprimer.TabIndex = 12;
             this.btn_supprimer.Text = "Supprimer";
             this.btn_supprimer.UseVisualStyleBackColor = true;
@@ -98,9 +108,12 @@
             // 
             // btn_annuler
             // 
-            this.btn_annuler.Location = new System.Drawing.Point(311, 307);
+            this.btn_annuler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_annuler.Location = new System.Drawing.Point(3, 61);
             this.btn_annuler.Name = "btn_annuler";
-            this.btn_annuler.Size = new System.Drawing.Size(75, 23);
+            this.btn_annuler.Size = new System.Drawing.Size(107, 23);
             this.btn_annuler.TabIndex = 11;
             this.btn_annuler.Text = "Annuler";
             this.btn_annuler.UseVisualStyleBackColor = true;
@@ -108,29 +121,32 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.lbl_Famille, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.lbl_NomSousFamille, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.cbx_Famille, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.lbl_Identifiant, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.tbx_identifiant, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.tbx_SousFamille, 1, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 249);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(293, 81);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(269, 86);
             this.tableLayoutPanel1.TabIndex = 14;
             // 
             // lbl_Famille
             // 
+            this.lbl_Famille.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lbl_Famille.AutoSize = true;
-            this.lbl_Famille.Location = new System.Drawing.Point(3, 52);
+            this.lbl_Famille.Location = new System.Drawing.Point(36, 64);
             this.lbl_Famille.Name = "lbl_Famille";
             this.lbl_Famille.Size = new System.Drawing.Size(61, 13);
             this.lbl_Famille.TabIndex = 16;
@@ -138,8 +154,9 @@
             // 
             // lbl_NomSousFamille
             // 
+            this.lbl_NomSousFamille.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lbl_NomSousFamille.AutoSize = true;
-            this.lbl_NomSousFamille.Location = new System.Drawing.Point(3, 26);
+            this.lbl_NomSousFamille.Location = new System.Drawing.Point(6, 35);
             this.lbl_NomSousFamille.Name = "lbl_NomSousFamille";
             this.lbl_NomSousFamille.Size = new System.Drawing.Size(91, 13);
             this.lbl_NomSousFamille.TabIndex = 8;
@@ -147,16 +164,18 @@
             // 
             // cbx_Famille
             // 
+            this.cbx_Famille.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.cbx_Famille.FormattingEnabled = true;
-            this.cbx_Famille.Location = new System.Drawing.Point(149, 55);
+            this.cbx_Famille.Location = new System.Drawing.Point(103, 60);
             this.cbx_Famille.Name = "cbx_Famille";
-            this.cbx_Famille.Size = new System.Drawing.Size(141, 21);
+            this.cbx_Famille.Size = new System.Drawing.Size(163, 21);
             this.cbx_Famille.TabIndex = 7;
             // 
             // lbl_Identifiant
             // 
+            this.lbl_Identifiant.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lbl_Identifiant.AutoSize = true;
-            this.lbl_Identifiant.Location = new System.Drawing.Point(3, 0);
+            this.lbl_Identifiant.Location = new System.Drawing.Point(44, 7);
             this.lbl_Identifiant.Name = "lbl_Identifiant";
             this.lbl_Identifiant.Size = new System.Drawing.Size(53, 13);
             this.lbl_Identifiant.TabIndex = 0;
@@ -164,27 +183,59 @@
             // 
             // tbx_identifiant
             // 
-            this.tbx_identifiant.Location = new System.Drawing.Point(149, 3);
+            this.tbx_identifiant.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.tbx_identifiant.Location = new System.Drawing.Point(103, 4);
             this.tbx_identifiant.Name = "tbx_identifiant";
-            this.tbx_identifiant.Size = new System.Drawing.Size(141, 20);
+            this.tbx_identifiant.Size = new System.Drawing.Size(163, 20);
             this.tbx_identifiant.TabIndex = 2;
             // 
             // tbx_SousFamille
             // 
-            this.tbx_SousFamille.Location = new System.Drawing.Point(149, 29);
+            this.tbx_SousFamille.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.tbx_SousFamille.Location = new System.Drawing.Point(103, 32);
             this.tbx_SousFamille.Name = "tbx_SousFamille";
-            this.tbx_SousFamille.Size = new System.Drawing.Size(141, 20);
+            this.tbx_SousFamille.Size = new System.Drawing.Size(163, 20);
             this.tbx_SousFamille.TabIndex = 5;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel1, 0, 0);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(1, 260);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(394, 92);
+            this.tableLayoutPanel2.TabIndex = 15;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel3.ColumnCount = 1;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Controls.Add(this.btn_Valider, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.btn_supprimer, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.btn_annuler, 0, 2);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(278, 3);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 3;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(113, 86);
+            this.tableLayoutPanel3.TabIndex = 16;
             // 
             // SousFamilleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(398, 340);
-            this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.btn_Valider);
-            this.Controls.Add(this.btn_supprimer);
-            this.Controls.Add(this.btn_annuler);
+            this.ClientSize = new System.Drawing.Size(398, 355);
+            this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.lv_SousFamille);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SousFamilleForm";
@@ -193,6 +244,8 @@
             this.Load += new System.EventHandler(this.SousFamilleForm_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -213,5 +266,7 @@
         private System.Windows.Forms.ComboBox cbx_Famille;
         private System.Windows.Forms.Label lbl_Famille;
         private System.Windows.Forms.Label lbl_NomSousFamille;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
     }
 }

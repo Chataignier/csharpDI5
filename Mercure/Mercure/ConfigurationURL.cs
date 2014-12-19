@@ -41,7 +41,6 @@ namespace Mercure
         {
             try
             {
-
                 MercureService Service = new MercureService();
                 Service.Url = txb_URL.Text;
 

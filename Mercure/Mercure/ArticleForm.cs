@@ -176,7 +176,6 @@ namespace Mercure
 
                 foreach (string[] sousFamille in SousFamilles)
                 {
-                    //TODO mettre des constantes
                     if (sousFamille[2].Equals(cbx_SousFamille.Text))
                     {
                         indexSousFamille = Convert.ToInt32(sousFamille[0]);

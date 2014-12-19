@@ -61,7 +61,6 @@
             this.lv_marque.TabIndex = 0;
             this.lv_marque.UseCompatibleStateImageBehavior = false;
             this.lv_marque.View = System.Windows.Forms.View.Details;
-            this.lv_marque.SelectedIndexChanged += new System.EventHandler(this.lv_marque_SelectedIndexChanged);
             this.lv_marque.Click += new System.EventHandler(this.lv_marque_Click);
             // 
             // Identifiant
@@ -158,7 +157,7 @@
             this.panel2.Controls.Add(this.lv_marque);
             this.panel2.Location = new System.Drawing.Point(0, 1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(364, 351);
+            this.panel2.Size = new System.Drawing.Size(364, 350);
             this.panel2.TabIndex = 6;
             // 
             // tableLayoutPanel1
@@ -212,7 +211,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 353);
+            this.ClientSize = new System.Drawing.Size(364, 352);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "MarqueForm";

@@ -153,10 +153,5 @@ namespace Mercure
         {
             MDIForm.marqueForm = null;
         }
-
-        private void lv_marque_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

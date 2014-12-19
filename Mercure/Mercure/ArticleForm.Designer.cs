@@ -104,7 +104,7 @@
             this.btn_Supprimer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Supprimer.Location = new System.Drawing.Point(10, 124);
+            this.btn_Supprimer.Location = new System.Drawing.Point(10, 122);
             this.btn_Supprimer.Margin = new System.Windows.Forms.Padding(10);
             this.btn_Supprimer.Name = "btn_Supprimer";
             this.btn_Supprimer.Size = new System.Drawing.Size(141, 38);
@@ -121,7 +121,7 @@
             this.btn_Valider.Location = new System.Drawing.Point(10, 10);
             this.btn_Valider.Margin = new System.Windows.Forms.Padding(10);
             this.btn_Valider.Name = "btn_Valider";
-            this.btn_Valider.Size = new System.Drawing.Size(141, 37);
+            this.btn_Valider.Size = new System.Drawing.Size(141, 36);
             this.btn_Valider.TabIndex = 2;
             this.btn_Valider.Text = "Ajouter";
             this.btn_Valider.UseVisualStyleBackColor = true;
@@ -133,10 +133,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Annuler.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_Annuler.Location = new System.Drawing.Point(10, 67);
+            this.btn_Annuler.Location = new System.Drawing.Point(10, 66);
             this.btn_Annuler.Margin = new System.Windows.Forms.Padding(10);
             this.btn_Annuler.Name = "btn_Annuler";
-            this.btn_Annuler.Size = new System.Drawing.Size(141, 37);
+            this.btn_Annuler.Size = new System.Drawing.Size(141, 36);
             this.btn_Annuler.TabIndex = 3;
             this.btn_Annuler.Text = "Annuler";
             this.btn_Annuler.UseVisualStyleBackColor = true;
@@ -199,7 +199,7 @@
             // 
             this.lbl_PrixHT.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lbl_PrixHT.AutoSize = true;
-            this.lbl_PrixHT.Location = new System.Drawing.Point(38, 150);
+            this.lbl_PrixHT.Location = new System.Drawing.Point(38, 149);
             this.lbl_PrixHT.Name = "lbl_PrixHT";
             this.lbl_PrixHT.Size = new System.Drawing.Size(39, 13);
             this.lbl_PrixHT.TabIndex = 6;
@@ -250,7 +250,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(494, 172);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(494, 170);
             this.tableLayoutPanel1.TabIndex = 5;
             // 
             // lbl_Description
@@ -280,7 +280,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(161, 172);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(161, 170);
             this.tableLayoutPanel2.TabIndex = 6;
             // 
             // tableLayoutPanel3
@@ -294,7 +294,7 @@
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(667, 178);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(667, 176);
             this.tableLayoutPanel3.TabIndex = 7;
             // 
             // ArticleForm
