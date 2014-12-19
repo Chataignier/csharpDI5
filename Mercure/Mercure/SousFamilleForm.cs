@@ -166,12 +166,22 @@ namespace Mercure
 
             if (lv_SousFamille.SelectedItems.Count > 0)
             {
-                var Confirmation = MessageBox.Show("Voulez-vous vraiment suprimer ce(s) ligne(s) ?", "Suppression", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                var Confirmation = MessageBox.Show("Voulez-vous vraiment suprimer ce(s) ligne(s) ainsi que ses dependances (Article) ?", "Suppression", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                 if (Confirmation == DialogResult.Yes)
                 {
                     foreach (ListViewItem item in lv_SousFamille.SelectedItems)
                     {
+                        //On verifie si un Article utilise la Sous-Famille
+                        foreach (string[] article in Service.GetArticles())
+                        {
+                            if (article[4].Equals(item.SubItems[0].Text))
+                            {
+                                //Suppression de l'article associe
+                                Service.DeleteArticle(article[0]);
+                            }
+                        }
+
                         Service.DeleteSousFamille(Convert.ToInt32(item.SubItems[0].Text));
                         item.Remove();
                     }
