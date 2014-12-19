@@ -93,12 +93,22 @@ namespace Mercure
 
             if (lv_marque.SelectedItems.Count > 0)
             {
-                var Confirmation = MessageBox.Show("Voulez-vous vraiment suprimer ce(s) ligne(s) ?", "Suppression", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                var Confirmation = MessageBox.Show("Voulez-vous vraiment suprimer ce(s) ligne(s) ainsi que toutes ses dependance (Article)?", "Suppression", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                 if (Confirmation == DialogResult.Yes)
                 {
                     foreach (ListViewItem item in lv_marque.SelectedItems)
                     {
+                        //On verifie si un Article utilise la Marque
+                        foreach (string[] article in Service.GetArticles())
+                        {
+                            if (article[6].Equals(item.SubItems[0].Text))
+                            {
+                                //Suppression de l'article associe
+                                Service.DeleteArticle(article[0]);
+                            }
+                        }
+
                         Service.DeleteMarque(Convert.ToInt32(item.SubItems[0].Text));
                         item.Remove();
                     }
