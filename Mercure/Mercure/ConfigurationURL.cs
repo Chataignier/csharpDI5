@@ -39,20 +39,20 @@ namespace Mercure
         /// <param name="e"></param>
         private void btn_Valider_Click(object sender, EventArgs e)
         {
-            try
-            {
+
                 MercureService Service = new MercureService();
                 Service.Url = txb_URL.Text;
 
-                Service.GetClients();
+                if (Service.GetClients() == null)
+                {
+                    MessageBox.Show("L'URL n'est pas valide", "attention !", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    MDIForm.URLServiceWeb = txb_URL.Text;
+                    this.Close();
+                }
 
-                MDIForm.URLServiceWeb = txb_URL.Text;
-                this.Close();
-            }
-            catch (Exception exception)
-            {
-                MessageBox.Show("L'URL n'est pas valide", "attention !", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
         }
 
         /// <summary>
@@ -72,7 +72,7 @@ namespace Mercure
         /// <param name="e"></param>
         private void btn_parDefault_Click(object sender, EventArgs e)
         {
-            MDIForm.URLServiceWeb = "http://localhost:8001/Sources/Mercure.asmx";
+            MDIForm.URLServiceWeb = MDIForm.URLServiceWebDefault;
             txb_URL.Text = MDIForm.URLServiceWeb;
         }
    

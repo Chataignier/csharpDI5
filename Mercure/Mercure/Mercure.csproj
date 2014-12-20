@@ -65,6 +65,7 @@
     <Compile Include="FamilleForm.Designer.cs">
       <DependentUpon>FamilleForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="IniFile.cs" />
     <Compile Include="MarqueForm.cs">
       <SubType>Form</SubType>
     </Compile>

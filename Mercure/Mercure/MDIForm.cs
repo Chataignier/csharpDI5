@@ -20,7 +20,8 @@ namespace Mercure
         public static FamilleForm familleForm;
         public static SousFamilleForm sousFamilleForm;
 
-        public static string URLServiceWeb = "http://localhost:8001/Sources/Mercure.asmx";
+        public static string URLServiceWeb;
+        public static string URLServiceWebDefault;
 
         /// <summary>
         /// Contructeur de la classe MDIForm()
